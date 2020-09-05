@@ -1,0 +1,50 @@
+/* seudo clases relacionados a las posiciones de los elementos */
+/* nth-child y entre parentesis se coloca la posicion */
+/* De todos los li en el mismo nivel */
+/* que sean hermanos */
+/* aplicar el estilo al de la posicion 2 */
+li:nth-child(2){ 
+    color: teal;
+}
+
+tr:nth-child(1){
+    color: blue;
+}
+
+/* primer hijo de cada grupo de hermano */
+li:first-child{
+    color: chartreuse;
+}
+
+/* pinta el ultimo hijo sin importar cuantos sean */
+li:last-child{
+    color: crimson;
+}
+
+/* odd impares even */
+tbody tr:nth-child(odd){
+background: hotpink;
+}
+/* pares */
+tbody tr:nth-child(even){
+    background: gray;
+    }
+
+thead{
+    background-color: gold;
+}
+
+/* redondear todos excepto los de tipo texto */
+input:not([type="text"]){
+    border-radius: 10px;
+}
+input[type="text"]{
+    background: darkseagreen;
+}
+
+input([type="number"]){
+    color: hotpink;
+}
+
+
+

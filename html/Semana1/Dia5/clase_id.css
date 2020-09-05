@@ -1,0 +1,32 @@
+/* voy a crear un estilo para la clase llamada */
+/* formulario_Personal */
+.Formulario-Personal{
+background: mediumturquoise;
+}
+/* todos los elementos input que esten dentro  */
+/* de un elemento que tenga clase .Formulario-Personal */
+.Formulario-Personal input{
+    /* da un borde redondeado a los input*/
+
+border-radius: 10px;
+}
+
+.Formulario-Externo{
+    background: palevioletred;
+}
+
+/* para todos los section */
+section{
+    background: olive;
+}
+
+.letra-morada{
+    color: purple;
+}
+
+.subrayado{
+    text-decoration: underline;
+}
+#inputgoogle{
+  background: grey;  
+}

@@ -1,0 +1,12 @@
+Terminal de consola en code visual
+
+dar click derecho en la tabla a la izquierda en un lugar vacio 
+click en open in terminal
+se abre la consola o la terminal de comandos 
+elejir de una lista de la drecha la lista que tiene una flecha antes del mas
+elejir select defult shell
+en la parte superior de la lista de 3 que salen escojer git bash
+se cierra en la equis de la derecha
+y se vuelve a abrir el open in terminal
+cd .. para salir de esa carpeta
+cd semana1

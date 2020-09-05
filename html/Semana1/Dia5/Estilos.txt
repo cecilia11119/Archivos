@@ -1,0 +1,134 @@
+Otras etiquetas
+legend para agrupar titulo de la caja
+
+comentarios 
+ctrl + /
+ctrl +}
+
+para reindentar alt + shift +f
+Estilos
+bootstrap tiene muchos estilo definidos
+
+Como inyectar estilos
+style define los estilos que se le van a colocar
+pero no se usa porque mas se va a usar css
+
+Pantalla partida
+arrstrar y soltar hasta que la pantalla este sombreada
+
+como esta a su misma altura ./
+
+Etiqueta repetida css toma el valor de la ultima
+
+Repetir los mismos estilo para otras etiquetas
+se separa con una coma
+
+el espacio es diferente a coma
+en el ejemplo utilizo li que esten dentro de un ul
+en cualquier nivel de cualquier forma se modifican todos
+
+Ejemplo
+ul li todos los li a cualquier nivel
+ul>li pinta los li que estan directamente despues no todos
+
+formula para sacar 2 section con 1 formulario con 2 parrafos
+con 1 lavel y 1 input
+section*2>form>p*2>label+input
+
+id identificador unico por cada elemento en el dom
+class identificador que puede ser compartido por varios elementos
+Por lo general las clases suelen ser usadas
+para compartir el mismo estilo entre varios elementos
+
+en el ejemplo al ultimo section tiene menor valor 
+quiere decir si encuentra un seccion que no tiene nada ni class ni id
+entonces le va a dar los colores del seccion
+
+si hay dos section o elementos del mismo peso entonces si compiten entre si
+y como es en cascada entonces toma el valor del ultimo section
+
+no se debe usar id
+
+Inspeccionar y flechita en cuadrado 
+luego soltar para que me muestre que estilos tiene
+
+En inspeccionar
+seleccionar P
+muestra los estilos que le da chrome
+
+em 
+rem es el tamaño por defecto de la letra del navegador 16 px para
+trabajar con textos
+% se recomienda para trabajar el ancho de los bloques div o section
+
+Estilos o funciones de reseteo
+reset.css
+normalize.css
+
+metodologia bem
+bloques elementos y modificadores
+https://seesparkbox.com/foundry/bem_by_example
+
+consejo las clases se usan mas para css
+y id se usa mas para javascript
+
+para hacer referencia a una clase se coloca .
+para hacer referencia a un id se coloca #
+
+!important para que prevalezca antes o que el otro de su mismo nivel
+
+table>(thead>tr>th*4{Cabecera $})+(tbody>tr*5>td*4{Elemento})+(tfoot>tr>td*4{pie})
+con ctrl espacio al final se previsualiza lo que se va a generar
+luego seleccionar lo que se va a generar
+
+nth-child(1) es igual a first-child
+
+/* odd impares even */
+tbody tr:nth-child(odd){
+background: hotpink;
+}
+/* pares */
+tbody tr:nth-child(even){
+    background: gray;
+    }
+
+
+[]
+
+https://cdnjs.com/
+Es como el google de las librerias
+escribir fontawesome
+dar click a la primera opcion
+sale version 5.14.0
+copiar el primer link al lado derecho esta la opcion
+de copiar link tag
+el link tiene una hoja de estilos q tiene una url externa no local
+se bajan los estilos de algun lugar
+CDN content delivered network
+contenido entregado por la red
+no estan dando ese recurso por un servidor por la red
+si ese servidor muere fuimos pero es muy dificil
+muchos sitios grandazos depende de cdnjs
+
+instalo la extension bootstrap 4 de Ashok Koyi
+
+la etiqueta i hace lo mismo que la etiqueta em
+que es cursiva
+
+Fontawesome a destinado la etiqueta i para dibujar sus iconos
+se coloca en la etiqueta i fa5 y sugiere una lista de iconos
+que es un grafico vectorial que se puede agrandar rotar 
+
+para no estar adivinando cual es la lista de iconos entrar a google
+font awesome
+dar click en iconos pero no todos los iconos son gratuitos
+los pagados son pro
+se puede buscar por ejemplo home salen casitas
+al hacer click en la casita sale el nombre de la clase 
+para hacer rotar el icono se coloca fa-spin
+fa-3x y el icono aumenta de tamaño
+
+flaticon se pueden descargar iconos
+
+
+

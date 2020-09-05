@@ -1,0 +1,47 @@
+tr*5>td*5{Contenido 05} 
+para abrir la ayuda
+ctrl + barra espaciadora
+seleccionar la ayuda
+
+Para transladar de un lugar a otro una etiqueta se debe seleccionar toda la etiqueta
+
+Formularios
+
+for es para mandar al usuario del label al textbox atravez del id
+
+ctrl + barra espaciadora y muestra los diferentes imputs que hay
+
+el el tipo numbre ya no puedo ingresar texto solo letras
+
+textarea para escribir texto grande
+dentro del text area no se debe colocar nada se puede colocar ayudita con placeholder
+rows 10 significa que se va a escribir 10 lineas y leugo aparece la barra de desplazamiento
+
+placeholder es como un texto de ayudita para el usuario
+value es un texto predeterminado se puede usara para por ejemplo 
+para colocar un correo predeterminado desde la arroba 
+para ayudar al usuario
+
+cheked
+es para hacer que este seleccionado un radio por defecto
+
+selected 
+es para dar un predetermiando en select que por defecto es el primero
+
+Editor de texto
+https://quilljs.com/
+
+Validacion
+required para que no se pueda enviar el formulario hasta haber ingresado el dato que estoy pidiendo
+minimo y maxima cantidad de caracteres 5 a 30 caracteres
+
+Pattern es una expresion regular para que se valide lo q el usuario ingresa
+regex es una expresion regular que sirve para leer la cantidad de caracteres
+para especificar reglas en la escritura
+en pattern puedo poner el texto de validacion que enseño Nolasco
+
+Title aqui se especifica el texto de ayuda al usuario en caso de que el patron falle
+
+Value se pone el texto que va a ir al servidor
+
+reset para limpiar los valor de los textos box

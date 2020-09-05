@@ -1,0 +1,88 @@
+Margenes
+
+/* selector generico se uso para quitar  */
+/* el margen por defecto que da el chrome a los elementos */
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #444;
+    color: white;
+}
+.ancho200{
+    /* la altura es automatica porq no especifique una altura */
+width: 200px; 
+ background-color: #222222; 
+height: 100px;
+/* todo lo que se rebalse que se oculte */
+/* overflow: hidden; */
+/* crea barras de desplazamiento */
+/* overflow: scroll; */
+overflow-x: hidden;
+overflow-y: scroll;
+/* si se coloca auto chrome maneja puede aparecer */
+/* de cualquier forma no es recomendable */
+/* margin distancia con el exterior */
+/* padding es la distancia con su linea imaginaria */
+
+
+}
+section{
+    width: 500px;
+    background-color: teal;
+    /* height: 100px; */
+    /* oculta el texto desbordado */
+    /* overflow: hidden; */
+    
+}
+
+.noticias{
+    /* margen a todos los lados del elemento */
+    /* margin: 20px; */
+    /* con boton solo es el margen inferior */
+margin-bottom: 20px;
+}
+/* solo se respeta el margen mayor */
+/* entre elementos que  se juntan */
+.imagenes{
+    margin-top: 20px;
+ padding: 30px;
+}
+
+/* padding es la distancia o relleno con su linea imaginaria */
+
+https://www.sitepoint.com/collapsing-margins/
+en esta pagina explican como colapsan los margenes 
+entre elementos adyacentes
+
+
+.articulos{
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    border:1px solid yellow;
+    /* cuando tiene un borde alli si comienza 
+    a respetar a los margenes de los hijos */
+}
+
+.articulos p {
+    width: 100px;
+    height: 100px;
+    /* margin-left: 50px; */
+    /* auto da margen automatico a los costados */
+    margin: auto;
+    margin-top: 50px;
+    background-color: #888;
+    /* margin a todos los lados de 10px 
+    margin 10px*/
+    /* margen superio e inferior de 10px y
+    margen de los costados de 20 px
+    margin: 10px 20px */
+    /* en sentido horario */
+/*superior 5px derecha 10px inferior 15px izquierda 20px*/
+    /* margin 5px 10px 15px 20px */
+
+}
+
+

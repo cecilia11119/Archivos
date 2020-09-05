@@ -1,0 +1,58 @@
+body{
+    background: slategrey;
+    color: snow;
+    font-family: Arial,Helvitica,sans-serif;
+}
+.rojo{
+    color: red;
+}
+
+.amarillo{
+    color: yellow;
+}
+.naranja{
+    color: orange;
+}
+.azulhex{
+    color: ;
+}
+
+.violetahex{
+    color: #FF00FF;
+}
+
+.grisClarohex{
+    color: #ddd;
+}
+.rosadoRgb{
+    color: rgb(250,190,190);5
+}
+
+.amarilloRgb{
+    color: rgb(255,255,0);
+}
+
+/* rgba el 4to elemento es un alfa entre 0 y 1*/
+/* 1 el color esta lleno */
+/* 0.5 este si tiene transparencia */
+
+.semitransparente{
+    background: rgba(143,189,79,0.5);
+}
+/* 0 al 360 rojo el 2do color es cuan saturado */
+/* se vera el color luego se ve la saturacion*/
+/* en % del 0 al 100% */
+/* el final es el brillo en % cero es negro*/
+
+.hsl{
+    background-color: hsl(270,100%, 50%);
+}
+.hsl2{
+    background-color: hsl(270,100%, 40%);
+}
+.hsl3{
+    background-color: hsl(270,100%, 30%);
+}
+/*  background-color: hsla(270,100%, 30%. 0.5); */
+/* el 4to lucgar es para la transparencia entre 0 y 1 */
+

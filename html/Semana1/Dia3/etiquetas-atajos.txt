@@ -1,0 +1,80 @@
+Clase 3
+div es generico
+procurara usar en lo minimo
+
+para abrir el proyecto se da click derecho y seleccionar live server
+
+header y nav se ubican en toda la pantalla se les dice elemento bloqueante
+
+el main tambien es un elemento bloqueante osea ocupa el 100% del ancho de la pantalla
+
+los h son elementos de titutlo de 1 al 6
+como maximo y minimo debe haber un solo h1
+
+lo que esta en el aside son elementos bloqueantes
+los h tambien son elementos bloqueantes o block
+van debajo uno del otro porque ocupa todo el espacio
+
+se escribe lorem y se da clcick en la parte para seleccionar 
+asi se copia un texto de borrador
+
+alt + z
+reduce la linea
+
+reindentado 
+alt + shift  + F
+
+<strong></strong >
+resalta el texto en negrita
+
+<em></em>
+resalta texto como cursiva
+
+small etiqueta que reduce un poquito el tamañlo de la letra
+<hr/> dibuja una linea 
+<time></time>para poner inicio del curso 30/06/2020
+tiene un atributo datetime es lo que busca el robot de google
+<small> reduce un poco el texto
+
+https://schema.org/
+ayuda a indexar por una busqueda con sugerencia de etiquetas creo
+
+https://trends.google.es/trends/?geo=ES
+aqui se pueden buscar los keywords que estan en tendencia para usarlos en 
+la etiqueta meta keywords
+
+facebook meta tags
+https://developers.facebook.com/docs/sharing/webmasters/
+da ejemplos de marcado 
+muestra ejemplos de diversas etiquetas
+
+twiter meta tags
+https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started
+para agregar mas metas
+
+span para realzar un texto
+es especial para el buscador de google
+
+code sirve para decirle a la computadora que es un poco de codigo y se va a mostar
+como tipo de fuente de consola
+
+https://developer.mozilla.org/es/docs/Web/HTML/Elemento
+lista de elementos o etiquetas html
+
+alt + Z es como dar enter y se ve en una sola linea
+
+<span time="PT600H">600 horas</span>
+para utilizar las etiquetas de https://schema.org/
+
+en la etiqueta a el atributo target="_blank" muestra la pagina en otra pestaña
+
+para hacer comentarios ctrl + }
+el id se usa como atributo de todas las etiquetas identificador unico
+por ejemplo se pone el atributo en una etiqueta
+  <footer id="pie">
+y se crea el enlace interno con el nombre del id
+ <a href="#pie">Contacto</a>
+
+para copiar texto de prueba se pone por ejemplo Lorem * 10 y se copia 10 veces ese texto
+
+me quede en el 3er video a las  2 : 00

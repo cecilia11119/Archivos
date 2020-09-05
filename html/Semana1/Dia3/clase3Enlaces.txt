@@ -1,0 +1,42 @@
+ENLACES
+a*3
+crea 3 enlaces
+
+emmet vsc
+esta instalado en visual code pero no en sublime se tiene 
+que instalar el pluging
+
+en el body escribir
+header>h1 
+y se van a construir las etiquetas completas
+
+para reindentar alt + shift +f
+
+nav>a*4 despues sale la ayuda para agregar las 4 ligas a las paginas web
+
+./
+antes del nombre de la pagina web
+
+alt + 35
+#
+si se pone numeral en lugar del nombre de la pagina entoces el link 
+no va ningun lado
+
+este atributo manda la pagina web a una pagina nueva para que se recarga en otro 
+pagina por ejemplo para publivcidad para que el usuario se vaya
+el atributo target="_blank"
+
+comentario
+ctrl + /
+ctrl +}
+
+landing page es una pagina principal en la que se crea la barra para subir y bajar 
+por la pagina una pagina muy grande
+
+id es el atributo o identificador unico a una etiqueta
+id="piedepagina"
+
+
+
+
+

@@ -1,0 +1,87 @@
+Clase 6
+reindentar alt + shift +f
+
+reindentar en una linea alt + z
+
+en parrafo1 estan detallas en el orden que deseo de preferencia 
+arial sino helvetica si no por ultimo sans serif
+
+cdm google fonts
+tipo de fuentes mas conocidas 
+roboto
+lato
+poppins
+
+Para elejir una fuente se da click en la fuente que te guste
+da una muestra de todas la posibilidades del estilo de esta fuente
+desde la mas delgadita hasta la mas gorda
+/* diferentes formas de colocar el grosor de la letra */
+/* bold es negrita desde 100 hasta 800 o 900 */
+/* no todas las fuentes tienen soporte para */
+/* los diferentes grosores de tipos de fuentes */
+font-weight: 400;
+font-style: italic; //si queremos la fuente cursiva
+en google fonts elijes la fuente y el tamaño de la fuente
+se hace click a la derecha en select this style
+luego en slect family clic en embed
+no nos conviene descargar es mejor usar el cdn desde el servidor de google
+hay 2 formas de usarlo 
+1 copiar el link
+2 en la pestaña import
+como quiero copiarlo en css solo copio lo de adentro del style
+copiarlo en la parte superior de css
+Al importar el estilo de fuente yo ya puedo elejir ubuntu y aconsejan si algo 
+pasa y no puedo utilizar esa fuente aconsejan dejar como segunda opcion sans serif
+esos consejos los da la misma pagina web google fonts para css specifi
+para llamar a la fuente externa se debe colocar entre comillas
+se pueden agregar mas o menos del tamaño del tipo de letra
+solo se actualiza la url o se copia del carrito de compras se copia 
+la nueva url con los 2 tamaños  en embed
+
+Descargar tipos de letras
+Harry porter fonts style
+https://www.dafont.com/harry-p.font
+click en descargar al lado derecho
+descarga el zip
+contiene un archivo .ttf es un formato para fuente
+otro formato es wof es el mas generico
+es mejor tener la fuente con las 2 extensiones por si se usa un navegador 
+que soporte solo uno de los tipos de extensiones
+
+importar una fuente local
+@font-face {
+    font-family: "harry";
+    src: url("./HARRYP__.TTF");
+}
+
+asi se utiliza con la etiqueta 
+.fuenteharry{
+    font-family: "harry";
+    font-size: 30px;
+}
+
+Para agregarla como una letra mas de la computadora
+descomprimirla
+luego doble clik a la fuente
+en esa ventana se da click en el menu instalar
+cerre el programa y cargo pero solo cuando agregue el archivo 
+a la computadora
+
+text-align tambien puede ser justify
+left right justificado a la derecha a ala izquierda
+
+letter spacing para ver cuanto espacio va haber entre letra y letra
+
+line-height interlineado
+
+Underline subrayado
+
+line-through subrayado al centro o tachado
+
+/* none no va a tener subrayado por defecto */
+#{
+    text-decoration: none;
+}
+
+
+me quede en el minuto 

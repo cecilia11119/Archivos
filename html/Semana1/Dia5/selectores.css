@@ -1,0 +1,29 @@
+/* Selector de etiquetas */
+/* Todos los h2 de la pagina */
+label{
+color: teal;
+}
+
+label{
+    color: tomato;
+}
+
+/* Compartiendo atributos */
+/* estilos que afecta a todos los h1 y los h2 */
+h2, h1{
+    color: purple;
+}
+
+/* Selector de hijos a cualquier nivel */
+/* todos los hijos que sean li y esten */
+/* dentro de un ul */
+ul li{
+color: red;
+}
+
+/* Selector de hijos en primer nivel o directos*/
+/* Todos los li que sean hijos de un ol*/
+
+ol > li, input {
+    color: royalblue;
+}

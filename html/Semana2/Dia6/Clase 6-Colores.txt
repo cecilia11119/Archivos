@@ -1,0 +1,33 @@
+Colores
+reindentar alt + shift +f
+
+/* rgba el 4to elemento es un alfa entre 0 y 1*/
+/* 1 el color esta lleno */
+/* 0.5 este si tiene transparencia */
+
+hsl se usa para hacer degradado en texto asi es mas facil
+de alli se puede sacra en hexagesimal y esos colores se usan en el diseño
+
+chrome store
+buscar stylish
+esta herramienta sirve para poder cambiar el estilo a una pagina web
+para whasapp facebook gmail se agrega la extension
+por ejemplo buscar google clean dark
+luego install style
+
+Adobe color
+buscar en chrome adobe color
+para elejir los colores que quiero pero tomando en cuenta mas aspectos
+haciendo click al lado izquierdo
+colores monocromatico
+analogos son varios tonos de un mismo color  
+triada de colores
+colores que se componen a si mismos
+colores complementarios son los colores que combinan
+
+Da ideas de combinacion de colores
+http://color.adobe.com/create/color-wheel
+
+Da ideas de combinacion de colores
+https://colorhunt.co/
+
